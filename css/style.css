@@ -15,7 +15,7 @@ p {
 
 #hero-section{
     color:  #0A2D82;
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: 900;
 }
 
@@ -39,7 +39,23 @@ p {
 }
 
 .picto-coeur img{
-    height: 5rem;
+    height: 2rem;
     display: inline-flex;
     vertical-align: middle;
+}
+
+@media (min-width: 599px) {
+    #hero-section{
+        font-size: 4rem;
+    }
+
+    .picto-coeur img{height: 4rem;}
+}
+
+@media (min-width: 899px) {
+    #hero-section{
+        font-size: 5rem;
+    }
+
+    .picto-coeur img{height: 5rem;}
 }
