@@ -52,6 +52,8 @@ p {
     .picto-coeur img{height: 4rem;}
 }
 
+h2{background:red;}
+
 @media (min-width: 899px) {
     #hero-section{
         font-size: 5rem;
